@@ -1,0 +1,52 @@
+.user {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.user__content {
+    display: flex;
+    background: #fff;
+    padding: 13px 31px;
+    border-radius: 6px;
+    gap: 10px;
+}
+
+.user__logo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3px;
+}
+
+.user__img {
+    max-width: 102px;
+}
+
+.user__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user__desc {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3F3F3F;
+}
+
+span {
+    font-weight: 400;
+}
+
+.user__img {
+    border-radius: 6px;
+    border: 1px solid #3F3F3F;
+}
+
+.user__btn {
+    font-weight: 300;
+    padding: 9px 15px;
+    background: #3F3F3F;
+    border-radius: 6px;
+    color: #fff;
+}
